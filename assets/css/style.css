@@ -1,0 +1,164 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.fullscreen { 
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url(../images/image.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+z-index: 5;
+}
+
+/*div:hover {
+	cursor: pointer;
+}*/
+
+.ontop {
+	z-index: 10;
+}
+
+.content {
+	width: 800px;
+	margin: 0 auto;
+	
+}
+
+.description {
+	margin: 80px 0 0 0;
+	font-size: 25px;
+	font-weight: 100;
+	line-height: 50px;
+}
+
+.footnote {
+	text-decoration: none;
+	color: #000000;
+	background-color: #fffd66;
+}
+
+.footnote:active {
+	text-decoration: none;
+	color: #000000;
+	background-color: #98ff66;
+}
+
+.clicked {
+	background-color: #98ff66;
+}
+
+.push img{
+	margin: 10px 0 0 0;
+}
+
+/*Position: relative is necessary to make the z-index work*/
+.place-visited {
+	position: relative;
+	text-decoration: none;
+	color: #000;
+	background-color: #f4f4f4;
+	background-image: url('../images/red-underline.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+	
+}
+
+.place-visited:active {
+	text-decoration: none;
+	color: #000;
+	background-color: #f4f4f4;
+	background-image: url('../images/black-underline.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+
+.place{
+	position: relative;
+	text-decoration: none;
+	color: #000;
+	background-color: #f4f4f4;
+	background-image: url('../images/blue-straight.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+	
+}
+
+.place:hover {
+	text-decoration: none;
+	color: #000;
+	background-color: #f4f4f4;
+	background-image: url('../images/blue-underline.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+.place:active {
+	text-decoration: none;
+	color: #000;
+	background-color: #f4f4f4;
+	background-image: url('../images/red-underline.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+.fnumber {
+	vertical-align: 9px;
+	font-size: 16px;
+	margin-left: 3px;
+}
+
+.footnote-text a{
+	color: #1c6aed;
+}
+
+.footnotes {
+	width: 100%;
+	margin: 80px 0 -15px;
+}
+
+.footnotes div {
+	float: left;
+}
+
+.footnotes .footnote-number {
+	width: 40px;
+	margin-left: 15px;
+}
+
+.footnotes .footnote-number span {
+	background: #ff0;
+	padding: 0 5px;
+}
+
+.footnotes .footnote-text {
+	width: 740px;
+}
+
+.footer {
+
+	width: 100%;
+	height: 100px;
+	margin-bottom: 100px;
+	bottom: 0;
+}
+
+.hidden {
+	display: none;
+}
